@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "sleevop"
 version = "2023.04.03.post1"
-description = "SleeVop: open-source Python package to analyse sleep envelope synchronization."
+description = "SleeVop: open-source Python package to analyse sleep envelope synchronisation."
 authors = ["Simon J. Guillot"]
 license = "Apache License 2.0"
 readme = "README.md"
