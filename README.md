@@ -4,7 +4,7 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/SleeVop?logo=pypi)](https://pypi.python.org/pypi/SleeVop)
 [![Conda (channel only)](https://img.shields.io/conda/vn/conda-forge/SleeVop?logo=anaconda&color=green)](https://anaconda.org/conda-forge/SleeVop)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/SleeVop.svg?logo=python)](https://pypi.python.org/pypi/SleeVop)
-[![License](https://img.shields.io/github/license/sjg2203/SleeVop?logo=apache)](https://github.com/sjg2203/SleeVop/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/sjg2203/SleeVop?logo=apache)](https://github.com/sjg2203/SleeVop/LICENSE)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 [![PyPI - Status](https://img.shields.io/pypi/status/SleeVop)](https://pypi.python.org/pypi/SleeVop)
 [![Hit](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fsjg2203%2FSleeVop.svg&color=red)](http://hits.dwyl.com/sjg2203/SleeVop)
