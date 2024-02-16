@@ -19,15 +19,20 @@ The toolbox is optimised for Python 3.10 and above and was tested on both Window
 
 ## Citation [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10651391.svg)](https://doi.org/10.5281/zenodo.10651391)
 
-If you use this toolbox, please cite as followed:
+If you use this toolbox, please cite as follows:
 
  - Guillot, S.J.<a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-1623-7091" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID"/></a> (2023). SleeVop (2023.04.03-post1). GitHub, Zenodo. https://doi.org/10.5281/zenodo.10651391
 
+This work is based on the following paper, citing it should be considered:
+
+- Ujma, P.P., Dresler, M., Simor, P. <i>et al.</i> The sleep EEG envelope is a novel, neuronal firing-based human
+  biomarker. <i>Sci Rep</i> <b>12</b>, 18836 (2022). https://doi.org/10.1038/s41598-022-22255-4
+
 ## Contribution [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sjg2203/SleeVop/issues)
 
-These pipelines were created and is maintained by SJG.
+These pipelines were created and maintained by SJG.
 
-Contributions are more than welcome so feel free to submit a [pull request](https://github.com/sjg2203/SleeVop/pulls)!
+Contributions are welcome, so feel free to submit a [pull request](https://github.com/sjg2203/SleeVop/pulls)!
 
 To report a bug, please open a new [issue](https://github.com/sjg2203/SleeVop/issues).
 
@@ -35,7 +40,7 @@ Note that this program is provided with NO WARRANTY OF ANY KIND under Apache 2.0
 
 ## Installation of Python package
 
-To install the toolbox, simply use:
+To install the toolbox, use:
 
 - Using conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ssp_detector-feedstock?branchName=main)](https://anaconda.org/conda-forge/SleeVop)
 
@@ -47,22 +52,4 @@ conda install -c cf-staging sleevop
 
 ```python
 pip install sleevop
-```
-
-Everything worked if the following command do not return any error:
-
-```python
-import mne
-from sleevop import sleep_env
-from tkinter import filedialog as fd
-
-#Load an EDF file using MNE
-edf_ref=fd.askopenfilename(title='SELECT EDF FILE',filetypes=(("EDF files","*.edf"),("all files","*.*")))
-edf_test=fd.askopenfilename(title='SELECT EDF FILE',filetypes=(("EDF files","*.edf"),("all files","*.*")))
-raw_ref=mne.io.read_raw_edf(edf_ref,preload=True)
-raw_test=mne.io.read_raw_edf(edf_test,preload=True)
-sfreq=raw_ref.info['sfreq']
-
-#Return sleep envelope synchronisation and latency
-sleep_env(raw_ref,raw_test,sf=sfreq,start='min',stop='max')
 ```
