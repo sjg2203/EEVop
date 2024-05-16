@@ -9,6 +9,7 @@
 project=u"sleevop"
 copyright=u"2024, Simon J. Guillot"
 author=u"Simon J. Guillot"
+email=u"simon.guillot@inserm.fr"
 
 # -- General configuration ---------------------------------------------------
 

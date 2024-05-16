@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "sleevop"
-version = "2023.04.03.post1"
-description = "SleeVop: open-source Python package to analyse sleep envelope synchronisation."
+version = "2023.04.03"
+description = "SleeVop (Sleep Envelope Synchronisation): a Python package to analyse sleep envelope synchronisation."
 authors = ["Simon J. Guillot"]
 license = "Apache License 2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10"
 
 [tool.poetry.dev-dependencies]
 [tool.semantic_release]
@@ -21,3 +21,11 @@ build_command = "pip install poetry && poetry build" # build dists
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "tab"
+docstring-code-format = true

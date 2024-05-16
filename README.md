@@ -1,4 +1,5 @@
 # SleeVop
+
 <img src="./docs/SleeVop_logo.png" width="300"/>
 
 [![PyPI - Version](https://img.shields.io/pypi/v/SleeVop?logo=pypi)](https://pypi.python.org/pypi/SleeVop)
@@ -8,11 +9,11 @@
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 [![PyPI - Status](https://img.shields.io/pypi/status/SleeVop)](https://pypi.python.org/pypi/SleeVop)
 [![Hit](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fsjg2203%2FSleeVop.svg&color=red)](http://hits.dwyl.com/sjg2203/SleeVop)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-[SleeVop](https://github.com/sjg2203/SleeVop) (sleep envelope synchronisation) toolbox analyses EEG envelopes to compare them to reference envelopes.
+[SleeVop](https://github.com/sjg2203/SleeVop) (Sleep Envelope Synchronisation): a Python package to analyse sleep envelope synchronisation.
 
-The toolbox is optimised for Python 3.10 and above and was tested on both Windows and macOS ARM.
+This package is optimised for Python 3.10 and above and was tested on both Windows and macOS ARM.
 
 > [!NOTE]
 > All dependencies are listed in [requirements](docs/requirements.txt), Python 3.10 minimum.
@@ -21,7 +22,8 @@ The toolbox is optimised for Python 3.10 and above and was tested on both Window
 
 If you use this toolbox, please cite as follows:
 
- - Guillot, S.J.<a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-1623-7091" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID"/></a> (2023). SleeVop (2023.04.03-post1). GitHub, Zenodo. https://doi.org/10.5281/zenodo.10651391
+- Guillot, S.J.<a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-1623-7091" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID"/></a> (
+  2023). SleeVop (2023.04.03). GitHub, Zenodo. https://doi.org/10.5281/zenodo.10651391
 
 This work is based on the following paper, citing it should be considered:
 
@@ -42,13 +44,15 @@ Note that this program is provided with NO WARRANTY OF ANY KIND under Apache 2.0
 
 To install the toolbox, use:
 
-- Using conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ssp_detector-feedstock?branchName=main)](https://anaconda.org/conda-forge/SleeVop)
+- Using
+  conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ssp_detector-feedstock?branchName=main)](https://anaconda.org/conda-forge/SleeVop)
 
 ```python
-conda install -c cf-staging sleevop
+conda install-c cf-staging sleevop
 ```
 
-- Using pip [![Pypi package](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml/badge.svg?branch=main)](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml) [![PyPI - Wheel](https://img.shields.io/pypi/wheel/SleeVop)](https://pypi.python.org/pypi/SleeVop)
+- Using
+  pip [![Pypi package](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml/badge.svg?branch=main)](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml) [![PyPI - Wheel](https://img.shields.io/pypi/wheel/SleeVop)](https://pypi.python.org/pypi/SleeVop)
 
 ```python
 pip install sleevop

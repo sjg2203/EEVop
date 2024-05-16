@@ -32,7 +32,7 @@ assignees: ''
 
 - *OS: [e.g. macOS, Linux64]*
 - *IDE [e.g. PyCharm, Spider]*
-- *Version [e.g. 2023.04.03-post1]*
+- *Version [e.g. 2023.04.03]*
 
 **Additional context**
 *Add any other context about the problem here.*
