@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SleeVop
+message: >-
+  If you use this toolbox, please cite as follows:  Guillot,
+  S.J. ( 2023). SleeVop (2023.04.03). GitHub, Zenodo.
+  https://doi.org/10.5281/zenodo.10651391
+type: software
+authors:
+  - email: simon.guillot@inserm.fr
+    given-names: Simon J
+    family-names: Guillot
+    orcid: 'https://orcid.org/0000-0002-1623-7091'
+    affiliation: INSERM
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10651391
+    description: Zenodo
+repository-code: 'https://github.com/sjg2203/SleeVop'
+abstract: >-
+  SleeVop (Sleep Envelope Synchronisation): a Python package
+  to analyse EEG envelopes.
+keywords:
+  - Sleep
+  - EEG
+  - Python
+  - Sleep envelope
+license: Apache-2.0
+commit: d419e4a
+date-released: '2023-04-03'
