@@ -13,7 +13,7 @@ authors:
     given-names: Simon J
     family-names: Guillot
     orcid: 'https://orcid.org/0000-0002-1623-7091'
-    affiliation: INSERM
+    affiliation: University of Oxford
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10651391
