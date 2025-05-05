@@ -2,10 +2,10 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: SleeVop
+title: EEVop
 message: >-
   If you use this toolbox, please cite as follows:  Guillot,
-  S.J. (2023). SleeVop (2023.04.03). GitHub, Zenodo.
+  S.J. (2023). EEVop (2023.04.03). GitHub, Zenodo.
   https://doi.org/10.5281/zenodo.10651391
 type: software
 authors:
@@ -18,7 +18,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.10651391
     description: Zenodo
-repository-code: 'https://github.com/sjg2203/SleeVop'
+repository-code: 'https://github.com/sjg2203/EEVop'
 abstract: >-
   SleeVop (Sleep Envelope Synchronisation): a Python package
   to analyse EEG envelopes.

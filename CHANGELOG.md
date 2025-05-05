@@ -4,4 +4,4 @@
 
 ## v2023.04.03 (03/04/2023)
 
-- First release of `SleeVop`!
+- First release of `EEVop`!

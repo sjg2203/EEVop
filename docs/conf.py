@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sleevop'
+project = 'eevop'
 copyright = '2024, Simon J. Guillot'
 author = 'Simon J. Guillot'
 email = 'simon.guillot@inserm.fr'
